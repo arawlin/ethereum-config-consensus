@@ -1,0 +1,8 @@
+prysm.sh
+node.pid
+*.txt
+
+dist/
+beaconchaindata/
+metaData
+tosaccepted
