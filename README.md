@@ -18,3 +18,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/snakewarhead/ethereum-conf
 curl https://raw.githubusercontent.com/prysmaticlabs/prysm/master/prysm.sh --output prysm.sh && chmod +x prysm.sh
 ```
 
+## check status
+
+```sh
+curl http://localhost:3500/eth/v1/node/syncing
+
+curl http://localhost:8080/healthz
+
+curl http://localhost:3500/eth/v1alpha1/node/eth1/connections
+```
