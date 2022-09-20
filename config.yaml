@@ -1,3 +1,4 @@
 datadir: '/wallet/ethereum/consensus'
 accept-terms-of-use: true
 p2p-max-peers: 100
+#verbosity: trace
