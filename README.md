@@ -23,7 +23,9 @@ curl https://raw.githubusercontent.com/prysmaticlabs/prysm/master/prysm.sh --out
 ```sh
 curl http://localhost:3500/eth/v1/node/syncing
 
-curl http://localhost:8080/healthz
+curl http://localhost:3500/eth/v1/node/health
+
+curl http://localhost:3500/eth/v1/node/peer_count
 
 curl http://localhost:3500/eth/v1alpha1/node/eth1/connections
 ```
